@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(32, 30, 39);
+}
+.main-body {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+.card {
+  border: 1px solid black;
+  max-width: 320px;
+  border-radius: 20px;
+  font-family: Poppins;
+  margin: 20px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 16px;
+  border-radius: 16px;
+  box-shadow: 0 7px 20px 5px #3a343488;
+  cursor: pointer;
+  transition: 0.6s ease;
+
+}
+.card h3 {
+  font-size: 0.9em;
+  margin-top: 10px;
+  color: rgb(123, 123, 196);
+  font-weight: 500;
+}
+.card h2 {
+  font-size: 1.3em;
+  color: rgb(128, 128, 238);
+  margin-top: 5px;
+}
+.card p {
+  margin-top: 10px;
+}
+.card span {
+  margin-top: 20px;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+.btn {
+  padding: 6px 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(0, 0, 0);
+  margin-top: 10px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 1.0em;
+  background: transparent;
+  transition: 0.6s ease;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
+  width: 100%;
+}
+.btn:hover {
+  transition: 0.3s ease;
+
+  background: rgba(10, 5, 75, 0.14);
+}
+
+.span-container{
+  gap: 10px;
+  color: white;
+  margin-top: 10px;
+  font-size: 0.825em;
+}
+
+.offer-btn{
+  background-color: rgb(30, 59, 138);
+  border: none;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-family: Poppins;
+  font-size: 0.7em;
+  color: rgb(226, 215, 215);
+}
+.stars{
+  margin-top: -10px;
+}
+.checked{color: orange;}
