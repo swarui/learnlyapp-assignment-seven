@@ -92,3 +92,30 @@ body {
   margin-top: -10px;
 }
 .checked{color: orange;}
+
+@media (max-width: 768px) {
+  .main-body {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .card {
+    max-width:auto;
+    margin: 15px auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .card h2 {
+    font-size: 1.1em;
+  }
+
+  .card h3 {
+    font-size: 0.8em;
+  }
+
+  .btn {
+    font-size: 0.9em;
+    padding: 5px 15px;
+  }
+}
